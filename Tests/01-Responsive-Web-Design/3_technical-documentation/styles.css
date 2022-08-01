@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    body{
+      display: flex;
+    }
+    nav{
+      display: flex;
+      flex-flow: column;
+    }
+}

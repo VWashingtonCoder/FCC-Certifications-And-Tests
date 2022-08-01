@@ -1,0 +1,17 @@
+form {
+    display: flex;
+    flex-flow: column;
+    align-items: baseline;
+}
+label {
+    margin: 5px 0;
+}
+textarea {
+    margin-left: 10px;
+}
+.submit {
+    margin-top: 10px;
+}
+#comment-label {
+    display: flex;
+}
