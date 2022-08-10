@@ -5,9 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(90deg, rgba(83,59,224,1) 0%, rgba(253,29,29,1) 50%, rgba(44,167,60,1) 100%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#App {
+  font-family: 'Lexend', sans-serif;
+}
+
+#title {
+  font-size: 65px;
+  margin-top: 75px;
+}
+
+#display {
+  font-size: 36px;
+}
+
+#keyboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  width: 75%;
+  font-size: 30px;
+  margin: 0 15%;
 }

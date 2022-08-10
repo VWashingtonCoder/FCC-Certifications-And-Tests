@@ -2,11 +2,9 @@ import React, { useEffect } from "react";
 import { simpleSoundsGroup } from "./SoundData";
 
 
-function Keyboard({ play }) {
-    
+function Keyboard({ play }) {    
     function handleKeyDown(evt) {
         const keyPressed = evt.key.toLowerCase();
-        console.log(keyPressed);
 
         if(keyPressed === "q") play("Q", "bass");
         else if(keyPressed === "w") play("W", "clap");
@@ -24,7 +22,7 @@ function Keyboard({ play }) {
     })
     
     return (
-        <div>
+        <div id="keyboard" className="text-center">
             {simpleSoundsGroup.map(({ key, src, id }) => {
                 return (
 
